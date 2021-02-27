@@ -12,7 +12,7 @@ const config = {
    */
   type: {
     accountType: 0,
-    driveType: 0,
+    driveType: 1,
     hostName: null,
     sitePath: null
   },
@@ -21,15 +21,15 @@ const config = {
    * You can use this tool http://heymind.github.io/tools/microsoft-graph-api-auth
    * to get following params: client_id, client_secret, refresh_token & redirect_uri.
    */
-  refresh_token: REFRESH_TOKEN,
-  client_id: '6600e358-9328-4050-af82-0af9cdde796b',
-  client_secret: CLIENT_SECRET,
+  refresh_token: '0.AAAAJF2-fY_I10mqhavgsE_iQI15BFV2YB5KsrUxAp_1rdw-AF4.AgABAAAAAAD--DLA3VO7QrddgJg7WevrAgDs_wQA9P_uVHA7b3IoeZ07_Smj88FjBnH-dGqMn4eerlq411ssQV6LhEcNfDTP8MkFsFxF8RSazy1UXG9CGKgGDsVdnII5d3NVkDeo7gNHin2KESLfBZ5dBfvbU_dC77bA2eG-58bGl43BclEs6s7nFvEHqWRMzvTFAvdwgSahCShynEjJpIbsvF7nGbIcPnlMTHNWB6F39S1lIQaZXcCclOVohzttb7QfTQF11Vi-f9fdxYYmh07vC2DEkNAlykb_pecVllB8gGyyAiB96vwHwO2sn6YGdOj7bI9FQR8FjsQUmsgzwfirVHOpNv9Dl1avfvvXs6ZrcseaRm5-RIQca1yW-IbQ3BlCT3P5Wmve23WcNtRPD6l3eZVMUMNr1A8TdYVBdTBeTLox9-W0mbel6hNf2tYKKU-FfYT19ZYloqok1sHQcrGNnh7qFbkHKgZeTBEew6Dl4aCmRgMPAhoYMwAcyLe96Z8jH5lLLW8mpaCpSC48ua9rT1Xq-Ejsp1ErRjjVY3htQV8xcnplUxr2IkDHPg1_NAmB_mS7wontoe9jBZnAPsEQUiNp56Iq4d8L2E5PkZW5og6qt7m3loict8QRDV4QB--W5QEUEYS2-3_03hgm3kFMY6hKEQLmbGp_E2H0Hy1cJuDYpaArg8Mxotz72GfGC83VmrU-yupB6oc8Kz4YzgccA3xS2BAX4Cl4aBpMeRSq5iHR0wDowCOAraMsRGdFiGDkKCZG7owf_cUHSHkO2rtYJM0MF3Wxo1hGD4Ej6YOIB12D6pKR5ajjrNlhrbO4VKC4cp16XSbLXtaBfBfRgfHDFne2M-n6X9avVOzZnBOhdVn1vnq8PzYnfbIhkOFMUQQPLZ-1ymj8z9AL-LVtIY3ySqmaJuAwK5zRhYTSO7_1p7rxL0rZ6RiNPGgGxua3uoJWYQUDqPUvcZO5PYtzEBz442EjdUYxWMM',
+  client_id: '5504798d-6076-4a1e-b2b5-31029ff5addc',
+  client_secret: 'j.fo1d5Lj2-zS38V-_W~35VYV25_FFMAtm',
   redirect_uri: 'https://heymind.github.io/tools/microsoft-graph-api-auth',
 
   /**
    * The base path for indexing, all files and subfolders are public by this tool. For example: `/Public`.
    */
-  base: '/Public',
+  base: '/stanley',
 
   /**
    * Feature: Pagination when a folder has multiple(>${top}) files
